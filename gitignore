@@ -3,6 +3,7 @@
 *.user
 *.sdf
 *.tlog/
+.vs
 bin/
 obj/
 Debug/
@@ -15,3 +16,4 @@ TestResult.xml
 Version.cs
 Version.h
 Version.cpp
+Project.VC.db
