@@ -204,7 +204,7 @@ void Network::propagate(Output const& target, double rate) //backpropagation
 
 void Network::train(Image const& image)
 {
-	double rate;
+	double rate=0.5;
 
 	pass(image);
 

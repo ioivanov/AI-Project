@@ -15,10 +15,10 @@ int main()
 	Network net;
 
 
-/*
+	/*
 	Image image("name.jpg");
 	net.pass(image).getResult;
-*/
-    return 0;
+	*/
+	return 0;
 }
 
