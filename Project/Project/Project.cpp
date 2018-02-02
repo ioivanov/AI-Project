@@ -2,10 +2,23 @@
 //
 
 #include "stdafx.h"
+#include <iostream>
+#include "time.h"
+#include "Network.h"
 
+using namespace std;
 
 int main()
 {
+	srand(time(NULL));
+
+	Network net;
+
+
+/*
+	Image image("name.jpg");
+	net.pass(image).getResult;
+*/
     return 0;
 }
 

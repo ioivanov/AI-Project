@@ -8,12 +8,18 @@ using namespace std;
 
 class Image
 {
-	char array[2025]; // pixels for image with size 45x45
-	int type; // class of the image
+	char array[625]; //pixels for image with size 45x45
+	string type; //class of the image
 
 public:
-	//read image
+	Image(string); //build pixel array out of name of jpg file
 
-	//write image
+	double getValue(int index) const
+	{
+		return array[index] / 256;
+	}
 
+	string getType() const { return type; }
+
+	int size() const { return 625; }
 };
